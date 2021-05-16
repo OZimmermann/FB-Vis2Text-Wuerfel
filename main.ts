@@ -1,7 +1,7 @@
-//  Variablen
+// # Variablen
 let augenzahl = 0
 // # Hauptprogramm
-//  Endlosschleife
+//  Endlosschleife für Dauerbetrieb
 while (true) {
     //  Abfrage des Knopfdrucks A
     if (input.buttonIsPressed(Button.A)) {
@@ -76,13 +76,7 @@ while (true) {
         //  Kurze Pause, damit Augenzahl angezeigt bleibt
         basic.pause(1000)
         //  Bildschirm löschen
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
+        basic.clearScreen()
     }
     
 }

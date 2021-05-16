@@ -1,8 +1,8 @@
-# Variablen
+## Variablen
 augenzahl = 0
 
 ## Hauptprogramm
-# Endlosschleife
+# Endlosschleife für Dauerbetrieb
 while True:
     # Abfrage des Knopfdrucks A
     if input.button_is_pressed(Button.A):
@@ -65,10 +65,4 @@ while True:
         # Kurze Pause, damit Augenzahl angezeigt bleibt
         basic.pause(1000)
         # Bildschirm löschen
-        basic.show_leds("""
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            """)
+        basic.clear_screen()
