@@ -157,8 +157,12 @@ while (true) {
     }
     if (spiel == "würfeln") {
         spiel = "pacman"
+        herzschlag(1)
+        basic.clearScreen()
     } else {
         spiel = "würfeln"
+        herzschlag(1)
+        basic.clearScreen()
     }
     
 }

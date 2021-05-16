@@ -136,5 +136,10 @@ while True:
                 pacmanrechts()
     if spiel == "würfeln":
         spiel = "pacman"
+        herzschlag (1)
+        basic.clear_screen()
+
     else:
         spiel = "würfeln"
+        herzschlag(1)
+        basic.clear_screen()
