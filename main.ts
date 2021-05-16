@@ -1,5 +1,8 @@
+//  Variablen
 let augenzahl = 0
+//  Hauptprogramm
 while (true) {
+    //  Endlosschleife
     if (input.buttonIsPressed(Button.A)) {
         augenzahl = randint(1, 6)
         if (augenzahl == 1) {

@@ -1,5 +1,9 @@
+# Variablen
 augenzahl = 0
+
+# Hauptprogramm
 while True:
+    # Endlosschleife
     if input.button_is_pressed(Button.A):
         augenzahl = randint(1, 6)
         if augenzahl == 1:
