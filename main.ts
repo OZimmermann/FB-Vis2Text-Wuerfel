@@ -11,7 +11,6 @@ while (true) {
                 . . . . .
                 `)
         }
-        
         if (augenzahl == 2) {
             basic.showLeds(`
                 . . . . .
@@ -21,7 +20,6 @@ while (true) {
                 . . . . .
                 `)
         }
-        
         if (augenzahl == 3) {
             basic.showLeds(`
                 . . . . .
@@ -31,7 +29,6 @@ while (true) {
                 . . . . .
                 `)
         }
-        
         if (augenzahl == 4) {
             basic.showLeds(`
                 . . . . .
@@ -41,7 +38,6 @@ while (true) {
                 . . . . .
                 `)
         }
-        
         if (augenzahl == 5) {
             basic.showLeds(`
                 . . . . .
@@ -51,7 +47,6 @@ while (true) {
                 . . . . .
                 `)
         }
-        
         if (augenzahl == 6) {
             basic.showLeds(`
                 . . . . .
@@ -61,9 +56,13 @@ while (true) {
                 . . . . .
                 `)
         }
-        
         basic.pause(1000)
-        basic.clearScreen()
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
     }
-    
 }
