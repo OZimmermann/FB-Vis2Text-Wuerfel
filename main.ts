@@ -63,13 +63,7 @@ while (true) {
         }
         
         basic.pause(1000)
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
+        basic.clearScreen()
     }
     
 }
