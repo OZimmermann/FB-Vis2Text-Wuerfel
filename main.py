@@ -51,4 +51,10 @@ while True:
                 . . . . .
                 """)
         basic.pause(1000)
-        basic.clear_screen()
+        basic.show_leds("""
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            """)
